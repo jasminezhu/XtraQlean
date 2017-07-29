@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "XQ Infinite Scroll",
+    "version": "0.1",
+
+    "content_scripts": [
+        {
+            "matches": ["http://bbs.jjwxc.net/board.php?board=*"],
+            "js": ["jquery-3.2.1.min.js", "content.js"],
+            "css": ["main.css"]
+  },
+        {
+            "matches": ["http://bbs.jjwxc.net/showmsg.php?board=*"],
+            "js": ["jquery-3.2.1.min.js", "message.js"],
+            "css": ["message.css"]
+        }
+]
+}

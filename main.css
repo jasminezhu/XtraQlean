@@ -1,0 +1,40 @@
+body {
+    background-color: #FAFAFA !important;
+    font-family: "Arial", "Microsoft YaHei", sans-serif;
+    color: #a0a0a0;
+}
+
+table#msglist {
+    background-color: #e0e0e0 !important;
+}
+
+tbody {
+    background-color: #FFFFFF !important;
+}
+
+td {
+    background-color: #FAFAFA !important;
+}
+
+tr {
+    background-color: #FFFFFF !important;
+}
+
+a:link {
+    color: #547fba !important;
+}
+
+a:visited {
+    /*    color: #a0a0a0 !important;*/
+    color: #6c5b7b !important;
+}
+
+span {
+    color: #547fba !important;
+}
+
+/*
+tbody tr:hover td {
+    background-color: #f5f5f5;
+}
+*/
